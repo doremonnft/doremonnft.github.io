@@ -1,8 +1,8 @@
-import rarity from '../assets/Rarity.png'
-import styles from '../css/Rarity.module.scss';
+import Pic from '../assets/Rarity.png'
+import styles from '../css/Unique.module.scss';
 import viewTraits from "../assets/button_assets/ViewTraits.png";
 
-function Rarity() {
+function Unique() {
   return (
     <div className={styles.container}>
       <div className={styles.info}>
@@ -26,9 +26,9 @@ function Rarity() {
 
       <div className={styles.pic}>
         <img
-          src={rarity}
-          width="95%"
-          height="80%%"
+          src={Pic}
+          width="100%"
+          height="100%"
           alt="nft robos"
         />
       </div>
@@ -36,4 +36,4 @@ function Rarity() {
   );
 }
 
-export default Rarity;
+export default Unique;

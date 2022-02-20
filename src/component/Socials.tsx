@@ -1,6 +1,6 @@
 import React from 'react';
-import twitterLogo from '../assets/twitter.svg';
-import discordLogo from '../assets/discord.svg';
+import twitterLogo from '../assets/twitter.png';
+import discordLogo from '../assets/discord.png';
 import styles from '../css/Socials.module.scss';
 
 function Socials() {
@@ -9,6 +9,7 @@ function Socials() {
       <div>
         <a target="_blank" rel="noreferrer" className={styles.link} href="">
           <img
+            className={styles.icon}
             src={twitterLogo}
             alt="twitter logo"
           />
@@ -18,6 +19,7 @@ function Socials() {
       <div>
         <a target="_blank" rel="noreferrer" className={styles.link} href="">
           <img
+            className={styles.icon}
             src={discordLogo}
             alt="discord logo"
           />

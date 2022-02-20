@@ -39,12 +39,16 @@
   font-size: 20px;
   font-weight: bold;
   max-width: 600px;
-  text-align: center;
   font-family: "SchoolFont";
+  text-align: center;
 }
 
 .button:hover{
   transform: scale(1.05);
   transition: 450ms;
   cursor: pointer;
+}
+
+.tick {
+  margin-right: 10px;
 }
