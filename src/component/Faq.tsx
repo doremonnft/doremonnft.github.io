@@ -32,7 +32,8 @@ function Faq() {
       {faq.answer}
     </div>
   </Collapse.Panel>)}
-  </Collapse></div>;
+  </Collapse>
+  </div>;
 
   return (
     <div className={styles.container}>
