@@ -7,7 +7,7 @@ import styles from '../css/Faq.module.scss';
 const faqs = [
   {
     question: 'How can I buy a robos?',
-    answer: <>Robos sold out in under a minute! They can still be bought on secondary markets</>,
+    answer: "Robos sold out in under a minute! They can still be bought on secondary markets",
   },
   {
     question: 'Do I own the robos after purchasing?',

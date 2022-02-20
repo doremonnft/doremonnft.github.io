@@ -21,7 +21,7 @@ function Homepage() {
         Half corgis. Half Shibas. Each dog holds a vaccination card hand drawn by Dogo and will grant access to future perks including a private discord server for all members.
         <br/>
         <br/>
-        These are digital collectibles living on the Solana Blockchain and 100% of proceeds will go into funding YouTube videos.
+        These are digital collectibles living on the Solana Blockchain and 100% of proceeds will go into funding.
       </>
       }
       cta={

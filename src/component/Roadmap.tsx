@@ -20,7 +20,6 @@ function Roadmap() {
         <ul>
           <li>Private discord channel for members</li>
           <li>Chance to be an extra in Robo videos (through Zoom or in-person if on location)</li>
-          <li>Early access to new YouTube videos</li>
           <li>And more!</li>
         </ul>
         </div>
