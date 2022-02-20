@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 96px;
+    margin-top: 48px;
+}
+  
+.item {
+    flex: 50%;
+}
+  
+.question {
+    display: inline-block;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+  
+.icon {
+    margin-right: 12px;
+  
+}
+  
+.panel {
+    margin-bottom: 24px;
+}
+  
+.answer {
+    margin-left: 28px;
+}

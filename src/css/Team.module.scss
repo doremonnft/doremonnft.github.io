@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+    gap: 32px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+  
+.item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+  
+.description {
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 600px;
+    text-align: center;
+    font-family: "SchoolFont";
+}
+  
+.profilePic {
+    margin-bottom: 8px;
+    border-radius: 32px;
+}
+  

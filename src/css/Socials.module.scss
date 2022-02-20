@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    gap: 36px;
+    @media (max-width: 576px) {
+      flex-direction: column;
+      gap: 16px;
+    }  
+}
+  
+.link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}

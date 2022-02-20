@@ -1,0 +1,11 @@
+.cta {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button:hover{
+    transform: scale(1.05);
+    transition: 450ms;
+    cursor: pointer;
+}
