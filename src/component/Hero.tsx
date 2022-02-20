@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid } from 'antd';
 import Socials from './Socials';
 
-import logo from '../assets/ROBOSbackground.png'
+import logo from '../assets/ROBOSbackground(2).png'
 
 import styles from '../css/Hero.module.scss';
 

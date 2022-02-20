@@ -1,5 +1,5 @@
 import { Grid } from 'antd';
-import logo from "../assets/ROBOSbackground.png";
+import logo from "../assets/ROBOSbackground(2).png";
 import styles from '../css/Loading.module.scss';
 
 function Loading() {
