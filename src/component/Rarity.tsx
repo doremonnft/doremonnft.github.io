@@ -9,7 +9,7 @@ function Rarity() {
           
         <div className={styles.description}>
           <h1>
-            Rarity
+            Uniqueness
           </h1>
           You have the same chance of getting a Corgi or a Shiba Inu, each of them holding a vaccination card uniquely drawn on by Robos.
           <br/>
@@ -27,7 +27,7 @@ function Rarity() {
       <div className={styles.pic}>
         <img
           src={rarity}
-          width="100%"
+          width="95%"
           height="80%%"
           alt="nft robos"
         />

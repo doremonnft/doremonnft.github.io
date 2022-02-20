@@ -22,18 +22,18 @@ function Team() {
     <div className={styles.container}>
       <div className={styles.description}>
         <h1>
-          Our Team
+          Meet Our Team
         </h1>
         <div className={styles.container}>
           <Teammate
             imgSrc={creater}
             handle=""
-            title="Creator"
+            title="Founder"
           />
           <Teammate
             imgSrc={dev}
             handle=""
-            title="Lead Developer"
+            title="Tech Lead"
           />
           <Teammate
             imgSrc={lead}

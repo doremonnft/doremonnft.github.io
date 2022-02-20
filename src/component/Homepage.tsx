@@ -8,6 +8,7 @@ import Team from './Team';
 import buyButton from '../assets/button_assets/BuyaRobos.png'
 import viewGalleryButton from '../assets/button_assets/ViewGallery.png'
 import styles from '../css/Homepage.module.scss';
+import  Footer  from './Footer';
 
 function Homepage() {
   return (
@@ -41,6 +42,7 @@ function Homepage() {
     <Divider/>
     <Faq/>
     <Divider/>
+    <Footer/>
     </AppLayout>
   );
 }

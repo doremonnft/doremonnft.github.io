@@ -12,7 +12,7 @@ function Eve({ description, cta }: {description?: React.ReactNode, cta: React.Re
     <div className={styles.container}>
       <img
         src={logo}
-        width={isMobile ? "120%" : "100%"}
+        width={isMobile ? "120%" : "125%%"}
         alt="Robos nft"
       />
       <div className={styles.description}>
