@@ -6,13 +6,13 @@ import logo from '../assets/ROBOSbackground(2).png'
 
 import styles from '../css/Hero.module.scss';
 
-function Hero({ description, cta }: {description?: React.ReactNode, cta: React.ReactNode}) {
+function Eve({ description, cta }: {description?: React.ReactNode, cta: React.ReactNode}) {
   const isMobile = Grid.useBreakpoint().xs;
   return (
     <div className={styles.container}>
       <img
         src={logo}
-        width={isMobile ? 600 : 800}
+        width={isMobile ? "120%" : "100%"}
         alt="Robos nft"
       />
       <div className={styles.description}>
@@ -24,4 +24,4 @@ function Hero({ description, cta }: {description?: React.ReactNode, cta: React.R
   );
 }
 
-export default Hero;
+export default Eve;

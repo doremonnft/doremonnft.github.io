@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 96px;
     margin-top: 48px;
 }
@@ -26,4 +26,12 @@
   
 .answer {
     margin-left: 28px;
+}
+
+.description {
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 600px;
+    text-align: center;
+    font-family: "SchoolFont";
 }

@@ -16,10 +16,10 @@ function Roadmap() {
           <h1>
             Roadmap
           </h1>
-        Minting a Vaxxed Doggo acts as your proof of vaccination to enter the Vaxxed Doggos Club. As a thank you for supporting Joma’s channel, you will have access to the following:
+        Minting a Robos acts as your proof of vaccination to enter the Robos Club. As a thank you for supporting Robo channel, you will have access to the following:
         <ul>
           <li>Private discord channel for members</li>
-          <li>Chance to be an extra in Joma’s videos (through Zoom or in-person if on location)</li>
+          <li>Chance to be an extra in Robo videos (through Zoom or in-person if on location)</li>
           <li>Early access to new YouTube videos</li>
           <li>And more!</li>
         </ul>
