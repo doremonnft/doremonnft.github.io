@@ -23,7 +23,7 @@ function Socials() {
         </a>
       </div>
       <div>
-        <a target="_blank" rel="noreferrer" className={styles.link} href="https://discord.com/">
+        <a target="_blank" rel="noreferrer" className={styles.link} href="https://discord.gg/k9bPuzfdmT">
           <img
             className={styles.icon}
             src="DiscordChippies(small).png"
