@@ -1,9 +1,9 @@
 import styles from '../css/Team.module.scss';
 
-function Teammate({ imgSrc, role, title }: { imgSrc: string, role: string, title: string }) {
+function Member({ imgSrc, role, title }: { imgSrc: string, role: string, title: string }) {
   return (
     <div className={styles.item}>
-      <img height={240} className={styles.profilePic} src={imgSrc} alt={title} />
+      <img height={150} className={styles.profilePic} src={imgSrc} alt={title} />
       <div>
         {title}
       </div>
@@ -22,44 +22,52 @@ function Team() {
           Our Team
         </h1>
         <div className={styles.container}>
-          <Teammate
+          <Member
             imgSrc="Ballz.jpg"
             title="Ballz"
             role="Entrepreneur in Blockchain"
           />
-          <Teammate
-            imgSrc="Doremon.jpg"
-            title="Monn"
-            role="Product Manager @Coinbase"
+          <Member
+            imgSrc="DoreWan-01.jpg"
+            title="Nutter"
+            role="Product Manager/PhD Student in AI"
           />
 
-          <Teammate
+          <Member
+            imgSrc="Doremi-01.jpg"
+            title="Mi"
+            role="Artist"
+          />
+          <Member
+            imgSrc="Doremon.jpg"
+            title="Monn"
+            role="Machine Learning Engineer @Coinbase"
+          />
+
+          <Member
             imgSrc="DoreMata-01.jpg"
             title="Mata"
             role="Machine Learning Engineer @Vistaprint"
           />
 
-          <Teammate
+          <Member
             imgSrc="DoreKofu-01.jpg"
             title="Kofu"
             role="Software Engineer @Snowflake"
           />
 
-          <Teammate
+          
+          <Member
             imgSrc="DoreKiddo-01.jpg"
             title="kiddo"
             role="Software Engineer @LinkedIn"
           />
-          <Teammate
+          <Member
             imgSrc="DoreRinho-01.jpg"
             title="Rinho"
             role="Software Engineer @Snap Inc."
           />
-          <Teammate
-            imgSrc="DoreWan-01.jpg"
-            title="Nutter"
-            role="PHD student in AI"
-          />
+          
         </div>
       </div>
 

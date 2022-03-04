@@ -6,17 +6,25 @@ import styles from '../css/Faq.module.scss';
 
 const faqs = [
   {
-    question: 'Supply?',
-    answer: "1234",
+    question: 'What is Chippies?',
+    answer: "Chippies is an AI tool that distributes analytics on every project using Sentimental Analysis as well as including a full organization tool for your transactions in the Solana ecosystem",
   },
   {
-    question: 'Mint price?',
-    answer: 'Undecided',
+    question: 'When is the mint date?',
+    answer: 'TBA',
   },
   {
-    question: "Which chain?",
-    answer: "Solana"
-  }
+    question: "What is the mint price and supply?",
+    answer: "1.25 sol, 1234 Chippies supply"
+  },
+  {
+    question: "Where do funds go?",
+    answer: "Funds and royalties will be distributed back to our project bank, which will go towards phase 2 of our generative adversarial network project as well as our tokenomics plans. Money will be spent on accelerating our hardware systems and infrastructures for larger Deep Learning models"
+  },
+  {
+    question: "Who is behind it?",
+    answer: "Our team consists of an entrepreneur in Solana blockchain, a Product Manager, an artist, and 5 enthusiastic engineers at top tech companies"
+  },
 ]
 
 function Faq() {

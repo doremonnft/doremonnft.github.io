@@ -2,7 +2,6 @@
     display: flex;
     gap: 36px;
     @media (max-width: 576px) {
-      flex-direction: column;
       gap: 16px;
     }  
 }
@@ -19,6 +18,8 @@
   transition: 450ms;
 }
 
-// .icon {
-//   width: 15vw
-// }
+.icon {
+  @media (max-width: 576px) {
+    width: 30vw;
+  } 
+}

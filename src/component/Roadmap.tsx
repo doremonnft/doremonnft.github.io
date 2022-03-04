@@ -14,6 +14,11 @@ function Roadmap() {
             alt="Roadmap"
           />
 
+          <a href = {require("../assets/ChippiesNFT_whitepaper.pdf")} target = "_blank">
+            <img className={styles.whitepaperPdf} src="Whitepaper.png" alt="whitepaper"></img>
+          
+          </a>
+
         </div>
     </div>
   );
