@@ -1,31 +1,37 @@
 import React from 'react';
-import twitterLogo from '../assets/twitter.png';
-import discordLogo from '../assets/discord.png';
 import styles from '../css/Socials.module.scss';
 
 function Socials() {
   return (
     <div className={styles.container}>
       <div>
-        <a target="_blank" rel="noreferrer" className={styles.link} href="">
+        <a target="_blank" rel="noreferrer" className={styles.link} href="https://twitter.com/ChippiesNFT">
           <img
             className={styles.icon}
-            src={twitterLogo}
-            alt="twitter logo"
+            src="TwitterChippies(small).png"
+            alt="twitter"
           />
-          <b>@Robos</b>
         </a>
       </div>
       <div>
-        <a target="_blank" rel="noreferrer" className={styles.link} href="">
+        <a target="_blank" rel="noreferrer" className={styles.link} href="https://magiceden.io/">
           <img
             className={styles.icon}
-            src={discordLogo}
-            alt="discord logo"
+            src="MEChippies(small).png"
+            alt="magiceden"
           />
-          <b>@Robos</b>
         </a>
       </div>
+      <div>
+        <a target="_blank" rel="noreferrer" className={styles.link} href="https://discord.com/">
+          <img
+            className={styles.icon}
+            src="DiscordChippies(small).png"
+            alt="discord"
+          />
+        </a>
+      </div>
+      
     </div>
   );
 }

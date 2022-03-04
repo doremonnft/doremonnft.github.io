@@ -6,47 +6,50 @@ import styles from '../css/Faq.module.scss';
 
 const faqs = [
   {
-    question: 'How can I buy a robos?',
-    answer: "Robos sold out in under a minute! They can still be bought on secondary markets",
+    question: 'Supply?',
+    answer: "1234",
   },
   {
-    question: 'Do I own the robos after purchasing?',
-    answer: 'Yes, full intellectual properties are given to the buyer.',
+    question: 'Mint price?',
+    answer: 'Undecided',
   },
   {
-    question: "Which chain is it on?",
-    answer: "This 2,500 Robos live on Solana. I chose Solana because the mint price will be relatively cheap. It wouldn't make sense to pay gas fees that are higher than the mint fee on Ethereum. Another reason why I chose Solana is because I'm bullish on it."
+    question: "Which chain?",
+    answer: "Solana"
   }
 ]
 
 function Faq() {
   const isMobile = Grid.useBreakpoint().xs;
-  const firstHalf = faqs.slice(0, Math.ceil(faqs.length/2));
-  const secondHalf = faqs.slice(Math.floor(faqs.length/2) + 1);
+  const firstHalf = faqs.slice(0, Math.ceil(faqs.length / 2));
+  const secondHalf = faqs.slice(Math.floor(faqs.length / 2) + 1);
 
-  const toCollapse = (faqArr: Array<{question: string, answer: React.ReactNode}>) => <div className={styles.item}><Collapse defaultActiveKey="How can I buy a robos?" ghost expandIcon={({isActive}) => {
-    return <div className={styles.icon}>{isActive ? <MinusOutlined/> : <PlusOutlined/>}</div>;
+  const toCollapse = (faqArr: Array<{ question: string, answer: React.ReactNode }>) => <div className={styles.item}><Collapse ghost expandIcon={({ isActive }) => {
+    return <div className={styles.icon}>{isActive ? <MinusOutlined /> : <PlusOutlined />}</div>;
   }}>
-  {faqArr.map(faq => <Collapse.Panel className={styles.panel} key={faq.question} header={<b className={styles.question}>{faq.question}</b>}>
-    <div className={styles.answer}>
-      {faq.answer}
-    </div>
-  </Collapse.Panel>)}
+    {faqArr.map(faq => <Collapse.Panel className={styles.panel} key={faq.question} header={<b className={styles.question}>{faq.question}</b>}>
+      <div className={styles.answer}>
+        {faq.answer}
+      </div>
+    </Collapse.Panel>)}
   </Collapse>
   </div>;
 
   return (
-    <div className={styles.container}>
-      
-      <div className={styles.description}>
-      <h1 className='row'>FAQ</h1>
-  
-      {isMobile ? toCollapse(faqs) : <>
-          {toCollapse(firstHalf)}
-          {toCollapse(secondHalf)}
-        </>}
+    <div className={styles.top}>
+      <h1 className={styles.title}>FAQ</h1>
+
+      <div className={styles.container}>
+
+        <div className={styles.description}>
+
+          {isMobile ? toCollapse(faqs) : <>
+            {toCollapse(firstHalf)}
+            {toCollapse(secondHalf)}
+          </>}
+        </div>
+
       </div>
-      
     </div>
   );
 }

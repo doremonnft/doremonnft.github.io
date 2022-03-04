@@ -2,11 +2,20 @@
     display: flex;
     justify-content: left;
     gap: 96px;
-    margin-top: 48px;
+}
+
+.top {
+    margin-top: 10vh;
 }
   
 .item {
     flex: 50%;
+}
+
+.title {
+    text-align: center !important;
+    font-family: "SchoolFont";
+    font-size: 40px;
 }
   
 .question {

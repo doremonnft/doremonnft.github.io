@@ -1,5 +1,4 @@
 import { Grid } from 'antd';
-import logo from "../assets/ROBOSbackground(2).png";
 import styles from '../css/Loading.module.scss';
 
 function Loading() {
@@ -7,9 +6,9 @@ function Loading() {
   return (
     <div className={styles.loading}>
       <img
-        src={logo}
+        src="LOGO.png"
         width={isMobile ? 600 : 800}
-        alt="Robos nft"
+        alt="chippies nft"
       />
       Loading...
     </div>

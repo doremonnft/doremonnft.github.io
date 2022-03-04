@@ -5,10 +5,7 @@ import Roadmap from './Roadmap';
 import Rarity from './Rarity';
 import Faq from './Faq';
 import Team from './Team';
-import buyButton from '../assets/button_assets/BuyaRobos.png'
-import viewGalleryButton from '../assets/button_assets/ViewGallery.png'
 import styles from '../css/Homepage.module.scss';
-import  Footer  from './Footer';
 
 function Homepage() {
   return (
@@ -16,19 +13,15 @@ function Homepage() {
       <Eve description={
       <>
         <h1>About Us</h1>
-        Robos is a collection of 2,500 NFTs created by 
+        1234 innovative Chippies coming to the Solana ecosystem. 
         <br/>
         <br/>
-        Half corgis. Half Shibas. Each dog holds a vaccination card hand drawn by Dogo and will grant access to future perks including a private discord server for all members.
+        Organize and take control of your trading with a unique equipment package! Innovation that excites 🚀
         <br/>
-        <br/>
-        These are digital collectibles living on the Solana Blockchain and 100% of proceeds will go into funding.
       </>
       }
       cta={
         <div className={styles.cta}>
-          <img className={styles.button} src={buyButton} />
-          <img className={styles.button} src={viewGalleryButton}/>
         </div>
       }
     />
@@ -42,7 +35,6 @@ function Homepage() {
     <Divider/>
     <Faq/>
     <Divider/>
-    <Footer/>
     </AppLayout>
   );
 }
