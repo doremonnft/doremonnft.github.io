@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/doremonnft.github.io/static/css/main.5ea7cdea.css",
+    "main.js": "/doremonnft.github.io/static/js/main.271115e0.js",
+    "static/js/27.ebf4f5ff.chunk.js": "/doremonnft.github.io/static/js/27.ebf4f5ff.chunk.js",
+    "static/media/ChippieNFT_whitepaper.pdf": "/doremonnft.github.io/static/media/ChippieNFT_whitepaper.42af15e9bc17f5d0ad9a.pdf",
+    "static/media/BubbbleGum-Bold.otf": "/doremonnft.github.io/static/media/BubbbleGum-Bold.6d63b358650c5159a64f.otf",
+    "static/media/LOGO.png": "/doremonnft.github.io/static/media/LOGO.f4748592b44f9355b5f8.png",
+    "index.html": "/doremonnft.github.io/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5ea7cdea.css",
+    "static/js/main.271115e0.js"
+  ]
+}
