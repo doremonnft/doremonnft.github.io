@@ -8,7 +8,7 @@ function Socials() {
         <a target="_blank" rel="noreferrer" className={styles.link} href="https://twitter.com/ChippiesNFT">
           <img
             className={styles.icon}
-            src="TwitterChippies(small).png"
+            src={require("../assets/TwitterChippies(small).png")}
             alt="twitter"
           />
         </a>
@@ -17,16 +17,16 @@ function Socials() {
         <a target="_blank" rel="noreferrer" className={styles.link} href="https://magiceden.io/">
           <img
             className={styles.icon}
-            src="MEChippies(small).png"
+            src={require("../assets/MEChippies(small).png")}
             alt="magiceden"
           />
         </a>
       </div>
       <div>
-        <a target="_blank" rel="noreferrer" className={styles.link} href="https://discord.gg/k9bPuzfdmT">
+        <a target="_blank" rel="noreferrer" className={styles.link} href="https://discord.gg/wa2SXFCtMx">
           <img
             className={styles.icon}
-            src="DiscordChippies(small).png"
+            src={require("../assets/DiscordChippies(small).png")}
             alt="discord"
           />
         </a>

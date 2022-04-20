@@ -7,15 +7,15 @@ import styles from '../css/Faq.module.scss';
 const faqs = [
   {
     question: 'What is Chippies?',
-    answer: "Chippies is an AI tool that distributes analytics on every project using Sentimental Analysis as well as including a full organization tool for your transactions in the Solana ecosystem",
+    answer: "Chippies is an AI tool that distributes analytics on every project using Sentimental Analysis as well as including a full organization tool for your transactions in the Solana ecosystem. More AI-empowered tools are yet to come in the next phases 🚀",
   },
   {
     question: 'When is the mint date?',
-    answer: 'TBA',
+    answer: 'April 30 🗓️',
   },
   {
     question: "What is the mint price and supply?",
-    answer: "1.25 sol, 1234 Chippies supply"
+    answer: "1.25 Sol, 1234 Chippies supply"
   },
   {
     question: "Where do funds go?",

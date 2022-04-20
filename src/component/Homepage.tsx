@@ -19,7 +19,7 @@ function Homepage() {
         Together the chips built a family of 1234 other chippies and a shelter that is only going to grow over time. The sky is the limit for us Chippies!
         <br/>
         <br/>
-        The Chippies project was founded by a young NFT enthusiast/entrepreneur, an elite PhD AI student, and 6 AI (artificial intelligence) concentrated coders who are looking to improve the relationship between AI and the NFT space.        <br/>
+        The Chippies project was founded by a young NFT enthusiast/entrepreneur, an elite PhD AI student, and 5 AI (Artificial Intelligence) and Blockchain concentrated coders who are looking to improve the relationship between AI and the NFT space.        <br/>
       </>
       }
       cta={

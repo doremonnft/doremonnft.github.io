@@ -23,51 +23,55 @@ function Team() {
         </h1>
         <div className={styles.container}>
           <Member
-            imgSrc="Ballz.jpg"
+            imgSrc={require("../assets/Ballz.jpg")}
             title="Ballz"
             role="Entrepreneur in Blockchain"
           />
           <Member
-            imgSrc="DoreWan-01.jpg"
+            imgSrc={require("../assets/DoreWan-01.jpg")}
             title="Nutter"
             role="Product Manager/PhD Student in AI"
           />
 
           <Member
-            imgSrc="Doremi-01.jpg"
+            imgSrc={require("../assets/Doremi-01.jpg")}
             title="Mi"
             role="Artist"
           />
           <Member
-            imgSrc="Doremon.jpg"
+            imgSrc={require("../assets/Doremon.jpg")}
             title="Monn"
             role="Machine Learning Engineer @Coinbase"
           />
 
+        </div>
+
+        <div className={styles.container}>
+          
           <Member
-            imgSrc="DoreMata-01.jpg"
+            imgSrc={require("../assets/DoreMata-01.jpg")}
             title="Mata"
             role="Machine Learning Engineer @Vistaprint"
           />
 
           <Member
-            imgSrc="DoreKofu-01.jpg"
-            title="Kofu"
-            role="Software Engineer @Snowflake"
-          />
-
-          
-          <Member
-            imgSrc="DoreKiddo-01.jpg"
+            imgSrc={require("../assets/DoreKiddo-01.jpg")}
             title="kiddo"
             role="Software Engineer @LinkedIn"
           />
+
           <Member
-            imgSrc="DoreRinho-01.jpg"
+            imgSrc={require("../assets/DoreRinho-01.jpg")}
             title="Rinho"
             role="Software Engineer @Snap Inc."
           />
-          
+
+          <Member
+            imgSrc={require("../assets/DorePin-01.jpg")}
+            title="Lubin"
+            role="Software Engineer @Google"
+          />
+
         </div>
       </div>
 

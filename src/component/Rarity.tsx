@@ -20,7 +20,7 @@ function Unique() {
       </div>
       <div className={styles.pic}>
         <img
-          src="GalleryDemo.jpg"
+          src={require("../assets/GalleryDemo.jpg")}
           width="100%"
           height="100%"
           alt="gallery"
