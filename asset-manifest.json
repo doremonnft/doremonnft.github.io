@@ -1,15 +1,28 @@
 {
   "files": {
     "main.css": "/doremonnft.github.io/static/css/main.5ea7cdea.css",
-    "main.js": "/doremonnft.github.io/static/js/main.271115e0.js",
+    "main.js": "/doremonnft.github.io/static/js/main.b3900c05.js",
     "static/js/27.ebf4f5ff.chunk.js": "/doremonnft.github.io/static/js/27.ebf4f5ff.chunk.js",
+    "static/media/DorePin-01.jpg": "/doremonnft.github.io/static/media/DorePin-01.968ec968748f7336b221.jpg",
+    "static/media/Doremi-01.jpg": "/doremonnft.github.io/static/media/Doremi-01.c69d296e569b2116ac32.jpg",
+    "static/media/DoreKiddo-01.jpg": "/doremonnft.github.io/static/media/DoreKiddo-01.dbcd63654ed5c7d64d4f.jpg",
+    "static/media/Ballz.jpg": "/doremonnft.github.io/static/media/Ballz.d4d2f3b8037f83d813e5.jpg",
+    "static/media/DoreMata-01.jpg": "/doremonnft.github.io/static/media/DoreMata-01.dc2942fe0996277975db.jpg",
+    "static/media/Doremon.jpg": "/doremonnft.github.io/static/media/Doremon.3808659aa66f6a662a7b.jpg",
+    "static/media/DoreWan-01.jpg": "/doremonnft.github.io/static/media/DoreWan-01.22001a0be177c6cd3ff7.jpg",
+    "static/media/DoreRinho-01.jpg": "/doremonnft.github.io/static/media/DoreRinho-01.4bbb6418ea74677e7063.jpg",
+    "static/media/ChippiesRoadmap.png": "/doremonnft.github.io/static/media/ChippiesRoadmap.183ac5bc19c1972916fe.png",
     "static/media/ChippieNFT_whitepaper.pdf": "/doremonnft.github.io/static/media/ChippieNFT_whitepaper.42af15e9bc17f5d0ad9a.pdf",
+    "static/media/GalleryDemo.jpg": "/doremonnft.github.io/static/media/GalleryDemo.a640a04cca03c61327b5.jpg",
     "static/media/BubbbleGum-Bold.otf": "/doremonnft.github.io/static/media/BubbbleGum-Bold.6d63b358650c5159a64f.otf",
+    "static/media/MEChippies(small).png": "/doremonnft.github.io/static/media/MEChippies(small).962fa22ca6561e95cd9b.png",
+    "static/media/DiscordChippies(small).png": "/doremonnft.github.io/static/media/DiscordChippies(small).270f6b41d128dcdb809d.png",
+    "static/media/TwitterChippies(small).png": "/doremonnft.github.io/static/media/TwitterChippies(small).95ae105879c830a0f207.png",
     "static/media/LOGO.png": "/doremonnft.github.io/static/media/LOGO.f4748592b44f9355b5f8.png",
     "index.html": "/doremonnft.github.io/index.html"
   },
   "entrypoints": [
     "static/css/main.5ea7cdea.css",
-    "static/js/main.271115e0.js"
+    "static/js/main.b3900c05.js"
   ]
 }
