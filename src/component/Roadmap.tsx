@@ -14,10 +14,10 @@ function Roadmap() {
             alt="Roadmap"
           />
 
-          <a href = {require("../assets/ChippieNFT_whitepaper.pdf")} target = "_blank" rel="noreferrer">
+          {/* <a href = {require("../assets/ChippieNFT_whitepaper.pdf")} target = "_blank" rel="noreferrer">
             <img className={styles.whitepaperPdf} src={require("../assets/Whitepaper.png")} alt="whitepaper"></img>
           
-          </a>
+          </a> */}
 
         </div>
     </div>

@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     question: 'When is the mint date?',
-    answer: 'April 30 🗓️',
+    answer: 'April 29 🗓️',
   },
   {
     question: "What is the mint price and supply?",
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     question: "Where do funds go?",
-    answer: "Funds and royalties will be distributed back to our project bank, which will go towards phase 2 of our generative adversarial network project as well as our tokenomics plans. Money will be spent on accelerating our hardware systems and infrastructures for larger Deep Learning models"
+    answer: "Funds and royalties will be distributed back to our project bank, which will go towards phase 2 of our project as well as our tokenomics plans. Money will be spent on accelerating our hardware systems and infrastructures for larger Deep Learning models"
   },
   {
     question: "Who is behind it?",

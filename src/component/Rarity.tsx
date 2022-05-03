@@ -12,15 +12,15 @@ function Unique() {
           Each of our Chippies are extremely unique and have their own specialties.
           <br />
           <br />
-          Some Chippies are more rare than others and include legendary designs.
+          Some Chippies are more rare than others and include legendary designs, with four 1/1 NFTs.
           <br />
           <br />
-          More info about traits coming soon…
+          Chip chip 🐿️🐿️
         </div>
       </div>
       <div className={styles.pic}>
         <img
-          src={require("../assets/GalleryDemo.jpg")}
+          src={require("../assets/GalleryDemo.png")}
           width="100%"
           height="100%"
           alt="gallery"
