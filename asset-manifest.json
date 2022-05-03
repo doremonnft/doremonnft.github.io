@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/doremonnft.github.io/static/css/main.8eec3d61.css",
-    "main.js": "/doremonnft.github.io/static/js/main.6d76bddf.js",
+    "main.js": "/doremonnft.github.io/static/js/main.107a8f50.js",
     "static/js/27.ebf4f5ff.chunk.js": "/doremonnft.github.io/static/js/27.ebf4f5ff.chunk.js",
+    "static/media/GalleryDemo.png": "/doremonnft.github.io/static/media/GalleryDemo.12a4ee519ae4bcf16e50.png",
     "static/media/DorePin-01.jpg": "/doremonnft.github.io/static/media/DorePin-01.968ec968748f7336b221.jpg",
     "static/media/Doremi-01.jpg": "/doremonnft.github.io/static/media/Doremi-01.c69d296e569b2116ac32.jpg",
     "static/media/DoreKiddo-01.jpg": "/doremonnft.github.io/static/media/DoreKiddo-01.dbcd63654ed5c7d64d4f.jpg",
@@ -12,8 +13,6 @@
     "static/media/DoreWan-01.jpg": "/doremonnft.github.io/static/media/DoreWan-01.22001a0be177c6cd3ff7.jpg",
     "static/media/DoreRinho-01.jpg": "/doremonnft.github.io/static/media/DoreRinho-01.4bbb6418ea74677e7063.jpg",
     "static/media/ChippiesRoadmap.png": "/doremonnft.github.io/static/media/ChippiesRoadmap.183ac5bc19c1972916fe.png",
-    "static/media/ChippieNFT_whitepaper.pdf": "/doremonnft.github.io/static/media/ChippieNFT_whitepaper.42af15e9bc17f5d0ad9a.pdf",
-    "static/media/GalleryDemo.jpg": "/doremonnft.github.io/static/media/GalleryDemo.a640a04cca03c61327b5.jpg",
     "static/media/BubbbleGum-Bold.otf": "/doremonnft.github.io/static/media/BubbbleGum-Bold.6d63b358650c5159a64f.otf",
     "static/media/MEChippies(small).png": "/doremonnft.github.io/static/media/MEChippies(small).962fa22ca6561e95cd9b.png",
     "static/media/DiscordChippies(small).png": "/doremonnft.github.io/static/media/DiscordChippies(small).270f6b41d128dcdb809d.png",
@@ -23,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.8eec3d61.css",
-    "static/js/main.6d76bddf.js"
+    "static/js/main.107a8f50.js"
   ]
 }
