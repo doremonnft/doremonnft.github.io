@@ -6,10 +6,12 @@ import Rarity from './Rarity';
 import Faq from './Faq';
 import Team from './Team';
 import styles from '../css/Homepage.module.scss';
+import DashboardButton from './DashboardButton';
 
 function Homepage() {
   return (
     <AppLayout>
+      
       <Eve description={
       <>
         <h1>About Us</h1>
@@ -27,7 +29,9 @@ function Homepage() {
         </div>
       }
     />
-
+    
+    <Divider/>
+    <DashboardButton />
     <Divider/>
     <Roadmap/>
     <Divider/>
