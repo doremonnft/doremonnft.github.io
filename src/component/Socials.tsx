@@ -14,7 +14,7 @@ function Socials() {
         </a>
       </div>
       <div>
-        <a target="_blank" rel="noreferrer" className={styles.link} href="https://magiceden.io/">
+        <a target="_blank" rel="noreferrer" className={styles.link} href="https://magiceden.io/marketplace/chippies_nft">
           <img
             className={styles.icon}
             src={require("../assets/MEChippies(small).png")}
