@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/doremonnft.github.io/static/css/main.8eec3d61.css",
-    "main.js": "/doremonnft.github.io/static/js/main.107a8f50.js",
+    "main.js": "/doremonnft.github.io/static/js/main.2522cdce.js",
     "static/js/27.ebf4f5ff.chunk.js": "/doremonnft.github.io/static/js/27.ebf4f5ff.chunk.js",
     "static/media/GalleryDemo.png": "/doremonnft.github.io/static/media/GalleryDemo.12a4ee519ae4bcf16e50.png",
     "static/media/DorePin-01.jpg": "/doremonnft.github.io/static/media/DorePin-01.968ec968748f7336b221.jpg",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.8eec3d61.css",
-    "static/js/main.107a8f50.js"
+    "static/js/main.2522cdce.js"
   ]
 }
